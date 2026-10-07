@@ -25,7 +25,8 @@ class _LoginState extends State<Login> {
     body: Column(
       children: [
         Center(child: Image(
-          image: AssetImage('asset/images/logo.png'),
+          // image: AssetImage('asset/images/logo.png'),
+          image: AssetImage('asset/logobuku.png'),
           width: 300,
           height: 200,
           
