@@ -27,12 +27,12 @@ class _LoginState extends State<Login> {
         Center(
           child: Container(
             width: 300,
-            color: Color (0xFFC5D89D),
+            color: Color (0xFFF6F0D7),
             child: TextField(
               decoration: InputDecoration(
                 hintText: 'Nama Pengguna',
                 border: OutlineInputBorder(
-                   borderRadius: BorderRadius.circular(10.0),  
+                   borderRadius: BorderRadius.circular(8.0),  
                 )
             ),
             controller: namaPengguna,
@@ -53,7 +53,7 @@ class _LoginState extends State<Login> {
           child: TextField(
             decoration: InputDecoration(
               hintText: 'Kata Sandi',
-              border: OutlineInputBorder(borderRadius: BorderRadius.circular(10.0)),
+              border: OutlineInputBorder(borderRadius: BorderRadius.circular(8.0)),
 
             ),
             controller: kataSandi,
