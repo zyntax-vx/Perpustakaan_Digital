@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pengembalian_perpustakaan/myhomepage.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key,});
@@ -77,9 +78,26 @@ class _LoginState extends State<Login> {
       ElevatedButton(
         child: Text('Login'),
         onPressed: () {
-          print(namaPengguna.text);
-          print(kataSandi.text);
-          Navigator.pushReplacementNamed(context, "/home");
+          //cek kosong
+          if (namaPengguna.text.isEmpty || kataSandi.text.isEmpty) {
+            ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text("Nama Pengguna Dan Kata Sandi Tidak Boleh Kosong!!"),
+              backgroundColor: Colors.red,
+            ),
+          );
+          return;
+          }
+
+          if (namaPengguna.text != 'Admin' || kataSandi.text != '12345') {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text("Nama Pengguna Atau Kata Sandi Salah!"),
+              backgroundColor: Colors.red,
+              ),
+            );
+          }
+          Navigator.push(context,
+          MaterialPageRoute(builder: (context) => MyHomePage()),
         },
       ),
       ],
