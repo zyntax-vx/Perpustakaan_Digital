@@ -77,6 +77,7 @@ class _LoginState extends State<Login> {
         onPressed: () {
           print(namaPengguna.text);
           print(kataSandi.text);
+          Navigator.pushReplacementNamed(context, "/home");
         },
       ),
       ],
