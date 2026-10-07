@@ -43,7 +43,7 @@ class _LoginState extends State<Login> {
         ),
       ),
       Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(30.0),
       ),
       
 
@@ -61,7 +61,7 @@ class _LoginState extends State<Login> {
         ),
       ),
       Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(30.0),
       ),
       ElevatedButton(
         child: Text('Login'),
