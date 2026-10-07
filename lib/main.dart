@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pengembalian_perpustakaan/myhomepage.dart';
-
+import 'package:pengembalian_perpustakaan/login.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -8,14 +7,16 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Perputakaan',
       theme: ThemeData(
         
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(),
+      home: const Login(),
     );
   }
 }
+
