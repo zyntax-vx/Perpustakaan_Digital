@@ -65,6 +65,7 @@ class _LoginState extends State<Login> {
         child: Text('Login'),
         onPressed: () {
           print(namaPengguna.text);
+          print(kataSandi.text);
         },
       ),
       ],
