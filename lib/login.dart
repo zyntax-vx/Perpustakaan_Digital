@@ -69,9 +69,11 @@ class _LoginState extends State<Login> {
           ),
         ),
       ),
+      //kasih jarak antar widget
       Padding(
         padding: EdgeInsets.all(30.0),
       ),
+      //tombol
       ElevatedButton(
         child: Text('Login'),
         onPressed: () {
