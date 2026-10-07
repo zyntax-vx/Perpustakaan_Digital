@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
       title: Text('Perpustakaan'),
       backgroundColor: Color (0xFFF6F0D7),
     ),
-    backgroundColor: Color (0xFFF6F0D7),
+    backgroundColor: Color (0xC5D89D),
     body: Column(
       children: [
         Center(
