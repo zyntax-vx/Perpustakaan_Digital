@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pengembalian_perpustakaan/login.dart';
+import 'package:pengembalian_perpustakaan/myhomepage.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +16,11 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Login(),
+      //home: const Login(),
+      routes: {
+        "/" :(context) => const Login(),
+        "/home" :(context) => const MyHomePage(),
+      }
     );
   }
 }
