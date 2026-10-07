@@ -37,6 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
+      Padding(
+        padding: EdgeInsets.all(16.0),
+      ),
       ElevatedButton(
         child: Text('Tampilkan Nama'),
         onPressed: () {
