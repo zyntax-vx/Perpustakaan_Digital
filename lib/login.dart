@@ -43,12 +43,7 @@ class _LoginState extends State<Login> {
       Padding(
         padding: EdgeInsets.all(16.0),
       ),
-      ElevatedButton(
-        child: Text('Login'),
-        onPressed: () {
-          print(namaPengguna.text);
-        },
-      ),
+      
 
       Center(
         child: Container(
@@ -65,6 +60,12 @@ class _LoginState extends State<Login> {
       ),
       Padding(
         padding: EdgeInsets.all(16.0),
+      ),
+      ElevatedButton(
+        child: Text('Login'),
+        onPressed: () {
+          print(namaPengguna.text);
+        },
       ),
       ],
     ),
