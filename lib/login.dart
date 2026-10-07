@@ -24,6 +24,12 @@ class _LoginState extends State<Login> {
     backgroundColor: Color (0xFFF6F0D7),
     body: Column(
       children: [
+        Center(child: Container(
+          width: 300,
+          height: 200,
+          child: Image.asset('asset/logo.png'),
+        ),
+        ),
         SizedBox(width: 20.0),
         Center(
           child: Container(
