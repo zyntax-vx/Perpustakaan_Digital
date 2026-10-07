@@ -17,15 +17,15 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(
       title: Text('Admin Login'),
-    backgroundColor: Color (0xC5D89D),
+    backgroundColor: Color (0xFFC5D89D),
     ),
-    backgroundColor: Color (0xF6F0D7),
+    backgroundColor: Color (0xFFF6F0D7),
     body: Column(
       children: [
         Center(
           child: Container(
             width: 300,
-            color: Color (0xC5D89D),
+            color: Color (0xFFC5D89D),
             child: TextField(
               decoration: InputDecoration(
                 hintText: 'Nama Pengguna',
