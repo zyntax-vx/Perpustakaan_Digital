@@ -16,9 +16,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(
       title: Text('Perpustakaan'),
-    backgroundColor: Color (0xC5D89D),
+    backgroundColor: Color (0xFFC5D89D),
     ),
-    backgroundColor: Color (0xC5D89D),
+    backgroundColor: Color (0xFFF6F0D7),
     body: Column(
       children: [
         Center(
