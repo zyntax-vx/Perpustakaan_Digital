@@ -24,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Center(
           child: Container(
             width: 300,
-            color: Color (0xC5D89D),
+            color: Color (0xFFF6F0D7),
             child: TextField(
               decoration: InputDecoration(
                 hintText: 'Nama Pengguna',
