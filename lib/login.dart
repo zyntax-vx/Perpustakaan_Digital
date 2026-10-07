@@ -30,7 +30,7 @@ class _LoginState extends State<Login> {
               decoration: InputDecoration(
                 hintText: 'Nama Pengguna',
                 border: OutlineInputBorder(
-                   borderRadius: BorderRadius.circular(8.0),  
+                   borderRadius: BorderRadius.circular(10.0),  
                 )
             ),
             controller: namaPengguna,
@@ -51,7 +51,7 @@ class _LoginState extends State<Login> {
           child: TextField(
             decoration: InputDecoration(
               hintText: 'Kata Sandi',
-              border: OutlineInputBorder(borderRadius: BorderRadius.circular(40.0)),
+              border: OutlineInputBorder(borderRadius: BorderRadius.circular(10.0)),
 
             ),
             controller: kataSandi,
