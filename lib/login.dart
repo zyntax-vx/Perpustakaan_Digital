@@ -24,8 +24,8 @@ class _LoginState extends State<Login> {
     backgroundColor: Color (0xFFF6F0D7),
     body: Column(
       children: [
-        Center(child: Container(
-          child: Image.asset('asset/logo.png'),
+        Center(child: Image(
+          image: AssetImage('asset/logo.png'),
           width: 300,
           height: 200,
           
